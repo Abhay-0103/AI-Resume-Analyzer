@@ -14,6 +14,17 @@ const ResumeCard = ({ resume: { id, companyName, jobTitle, feedback, imagePath }
             let url = URL.createObjectURL(blob);
             setResumeUrl(url);
         }
+
+        loadResume();
+    }, [imagePath]);
+
+    useEffect(() => {
+        const loadResume = async () => {
+            const blob = await fs.read(imagePath);
+            if(!blob) return;
+            let url = URL.createObjectURL(blob);
+            setResumeUrl(url);
+        }
         loadResume();
     }, [imagePath]);
 
