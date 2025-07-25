@@ -41,26 +41,22 @@ cd AI-Resume-Analyzer
 npm install
 ```
 
-### Usage
+### 🚀 Usage
 # Start the development server
 ```
 npm run dev
 Then open your browser and go to:
-```
-
-### arduino
-```
 http://localhost:5173
 ```
 
-### Docker
+### 🐳 Docker
 To build and run the app in Docker:
 ```
 docker build -t ai-resume-analyzer .
 docker run -p 5173:5173 ai-resume-analyzer
 ```
 
-### Project Structure
+### 📁 Project Structure
 ```
 app/
  ├── components/        # Reusable UI components (Navbar, ScoreGauge, etc.)
@@ -75,9 +71,9 @@ package.json            # Project metadata & scripts
 Dockerfile              # Docker configuration
 ```
 
-### Contributing
+### 🧑‍💻 Contributing
 Contributions and suggestions are welcome!
 Feel free to open issues or pull requests.
 
 
-Made with ❤️ by Abhay Singh
+### Made with ❤️ by Abhay Singh
