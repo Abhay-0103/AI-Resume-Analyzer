@@ -3,6 +3,8 @@
 AI-Resume-Analyzer is a modern web application that helps users upload and analyze resumes using AI-powered scoring and visualizations.  
 Built with **React**, **TypeScript**, and **Vite**, it provides an intuitive interface and modular components to make resume analysis seamless and user-friendly.
 
+### Live Preview :- https://ai-resume-analyzer-ebon.vercel.app/
+
 ---
 
 ## ✨ Features
