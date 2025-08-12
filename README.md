@@ -51,13 +51,6 @@ Then open your browser and go to:
 http://localhost:5173
 ```
 
-### 🐳 Docker
-To build and run the app in Docker:
-```
-docker build -t ai-resume-analyzer .
-docker run -p 5173:5173 ai-resume-analyzer
-```
-
 ### 📁 Project Structure
 ```
 app/
